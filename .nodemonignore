@@ -1,0 +1,8 @@
+/public/*     # static files
+/test/*       # test files
+/views/*       # test files
+./README.md   # a specific file
+*.css         # ignore any CSS files too
+:(\d)*\.js    # monitor javascript files with only digits in their name
+/.git/*
+*.json
